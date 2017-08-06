@@ -45,8 +45,8 @@
         this._on(button, {
           click: function(event) {
             event.preventDefault();
-            if (button.click != undefined)
-              button.click(event);
+            if (currentButton.click != undefined)
+              currentButton.click(event);
           }
         });
         i++;

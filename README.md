@@ -1,5 +1,5 @@
-# jQuery-UI-Dialog-Custom-Titlebar
-Extension for jQuery UI for making windows-like dialog
+# jQuery UI Dialog Extend Custom Titlebar
+Extension for jQuery UI for making windows-like dialogs
 
 ## Compatibility
 1. jQuery UI v1.12.1
@@ -20,12 +20,14 @@ $("<div />")
         icon: "ui-icon-newwin",
         tooltip: "New Window",
         click: function(event){
+          /* your code */
           console.log(event);
         }
       },
       {
-        icon: "ui-icon-newwin",
+        icon: "ui-icon-close",
         click: function(event){
+          /* your code */
           console.log(event);
         }
       }
