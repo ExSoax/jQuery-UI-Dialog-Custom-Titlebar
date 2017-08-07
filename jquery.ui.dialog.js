@@ -35,7 +35,7 @@
           $("<button type='button'></button>")
           .button({
             label: $("<a>").text(currentButton.tooltip).html(),
-            icon: "ui-icon-newwin",
+            icon: currentButton.icon,
             showLabel: false
           })
           .css("margin-right", (25+i*25)+"px")
